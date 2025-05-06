@@ -12,7 +12,9 @@ provider "aws" {
 }
 
 variable "production" {
-  default = green
+  description = "Is this a production environment?"
+  type        = string
+  default = "green"
 }
 
 module "base" {
