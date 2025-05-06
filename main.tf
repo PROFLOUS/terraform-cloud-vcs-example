@@ -11,7 +11,7 @@ provider "aws" {
   region = "us-west-2"
 }
 
-varible "production" {
+variable "production" {
   default = green
 }
 
